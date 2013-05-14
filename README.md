@@ -26,7 +26,7 @@ Drum is implemented using a library called **BBGroover** (<https://github.com/pw
 
 ### Network
 
-DTBonjour framework (<https://github.com/Cocoanetics/DTBonjour>) is used to do the WLAN network communication. I created a helper class to wrap up all the network communication method into one place so that other class can easily use those method without considering too much. 
+**DTBonjour** framework (<https://github.com/Cocoanetics/DTBonjour>) is used to do the WLAN network communication. I created a helper class to wrap up all the network communication method into one place so that other class can easily use those method without considering too much. 
 
 I made the helper class singleton to ensure all the classes share the same information, such as how many devices, in WLAN. However there are different instruments require network communication and singleton means there's only one class can be the delegate. My approach to solve this problem is to create a new class, behaving as the interface between instrument and network. The interface is like a translator. The instrument tell the interface its needs of network communication, and then the interface translate those needs to the helper class. When there are new incoming network data, the helper class pass the data to the interface and let it translate back to the instruments.
 
