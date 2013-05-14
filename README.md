@@ -5,7 +5,7 @@ iBand is a musical instrument app that allows users in the same Wireless LAN to 
 
 ## Components
 
-There are two major part of this app, **instrument** and **network**.
+There are two major part of this app, **instrument** and **network**. All additional libraries or frameworks are added using **CocoaPods**. Please open the project by ***iBand.xcworkspace***.
 
 ### Instruments
 
