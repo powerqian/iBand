@@ -99,6 +99,7 @@
 - (void)stop
 {
     [self.groover stopGrooving];
+    [self.delegate didStop];
 }
 
 - (void)resume

@@ -56,6 +56,12 @@
     [self.bbGridView setNeedsDisplay];
 }
 
+- (void)didStop
+{
+    self.bbTickView.currentTick = 0;
+    [self.bbTickView setNeedsLayout];
+}
+
 #pragma mark -
 #pragma mark BBGridViewDataSource Methods
 - (NSUInteger)gridView:(BBGridView *)gridView columnsForRow:(NSUInteger)row
@@ -105,6 +111,9 @@
     [self updateTempo:newTempo];
 
     [IBNetworkInstrumentInterface sendDrumUpdateWithTempo:newTempo];
+}
+- (IBAction)sliderChanged:(UISlider *)sender {
+    self.tempoLabel.text = [NSString stringWithFormat:@"Tempo = %d", (NSUInteger)sender.value];
 }
 
 - (IBAction)startTapped:(id)sender {

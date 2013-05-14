@@ -29,7 +29,10 @@ static NSString const * KEY_PIANO_KEY_INDEX  = @"Piano Key Index";
             BOOL start = [updateDic[KEY_DRUM_START_STOP] boolValue];
             if (start) {
                 [drum start];
-            } else [drum stop];
+            } else {
+                [drum stop];
+                [drum.delegate didStop];
+            }
         } else {
             NSUInteger drumType = [updateDic[KEY_DRUM_TYPE] intValue];
             NSUInteger index    = [updateDic[KEY_DRUM_INDEX] intValue];

@@ -112,7 +112,9 @@
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="50" maxValue="250" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-Ra-8WC">
                                 <connections>
-                                    <action selector="sliderFinished:" destination="NLg-OE-t0g" eventType="valueChanged" id="pnI-hY-15o"/>
+                                    <action selector="sliderChanged:" destination="NLg-OE-t0g" eventType="valueChanged" id="VKN-ZT-30M"/>
+                                    <action selector="sliderFinished:" destination="NLg-OE-t0g" eventType="touchUpOutside" id="ejf-Nw-WsZ"/>
+                                    <action selector="sliderFinished:" destination="NLg-OE-t0g" eventType="touchUpInside" id="xih-tO-TzO"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tempo: 120" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEx-Bt-Nqr">
@@ -279,6 +281,62 @@
     <resources>
         <image name="User.png" width="26" height="26"/>
     </resources>
+    <classes>
+        <class className="BBGridView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BBGridView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="datasource"/>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="BBTickView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BBTickView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="IBBandMemberTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBBandMemberTableViewController.h"/>
+        </class>
+        <class className="IBDrumViewController" superclassName="IBInstrumentViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBDrumViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="sliderChanged:" candidateClass="UISlider"/>
+                <relationship kind="action" name="sliderFinished:" candidateClass="UISlider"/>
+                <relationship kind="action" name="startTapped:"/>
+                <relationship kind="action" name="stopTapped:"/>
+                <relationship kind="outlet" name="bbGridView" candidateClass="BBGridView"/>
+                <relationship kind="outlet" name="bbTickView" candidateClass="BBTickView"/>
+                <relationship kind="outlet" name="tempoLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tempoSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="IBInitialViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBInitialViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="IBInstrumentViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBInstrumentViewController.h"/>
+        </class>
+        <class className="IBPianoViewController" superclassName="IBInstrumentViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBPianoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="keyboard" candidateClass="KeyboardView"/>
+                <relationship kind="outlet" name="octaveRange" candidateClass="OctaveRangeSelectionView"/>
+            </relationships>
+        </class>
+        <class className="KeyboardView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KeyboardView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="OctaveRangeSelectionView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OctaveRangeSelectionView.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

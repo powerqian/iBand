@@ -25,6 +25,7 @@ static NSUInteger const DEFAULT_BEATS = 4;
 - (void)didTick:(NSUInteger)tick;
 - (void)didUpdateTempoTo:(NSUInteger)newTempo;
 - (void)didUpdateModel;
+- (void)didStop;
 @end
 
 
