@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hM1-Sl-fjN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Piano View Controller - Piano-->
+        <scene sceneID="MDV-QH-3y8">
+            <objects>
+                <viewController id="C1H-fb-Mvl" customClass="IBPianoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wQD-OD-Zab">
+                        <rect key="frame" x="0.0" y="64" width="480" height="256"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Zo-gw-cQU" customClass="KeyboardView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hL0-Iq-MUk" customClass="OctaveRangeSelectionView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Zo-gw-cQU" firstAttribute="bottom" secondItem="wQD-OD-Zab" secondAttribute="bottom" type="default" id="5CW-hq-N76"/>
+                            <constraint firstItem="hL0-Iq-MUk" firstAttribute="trailing" secondItem="wQD-OD-Zab" secondAttribute="trailing" type="default" id="C6v-Oi-O5N"/>
+                            <constraint firstItem="7Zo-gw-cQU" firstAttribute="trailing" secondItem="wQD-OD-Zab" secondAttribute="trailing" type="default" id="Mx8-2F-rpJ"/>
+                            <constraint firstItem="7Zo-gw-cQU" firstAttribute="top" secondItem="wQD-OD-Zab" secondAttribute="top" constant="80" id="Quk-Fe-dji"/>
+                            <constraint firstItem="7Zo-gw-cQU" firstAttribute="top" secondItem="hL0-Iq-MUk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aFu-dB-Qe3"/>
+                            <constraint firstItem="hL0-Iq-MUk" firstAttribute="top" secondItem="wQD-OD-Zab" secondAttribute="top" type="default" id="c7J-AD-zeU"/>
+                            <constraint firstItem="7Zo-gw-cQU" firstAttribute="leading" secondItem="wQD-OD-Zab" secondAttribute="leading" type="default" id="cWn-H9-dIe"/>
+                            <constraint firstItem="hL0-Iq-MUk" firstAttribute="leading" secondItem="wQD-OD-Zab" secondAttribute="leading" type="default" id="kHe-Kd-dxN"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Piano" id="PFA-Cq-ovu"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="keyboard" destination="7Zo-gw-cQU" id="KUy-D8-8ah"/>
+                        <outlet property="octaveRange" destination="hL0-Iq-MUk" id="WxL-MF-k8o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DzH-cS-GHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="164"/>
+        </scene>
+        <!--Drum View Controller - Drum-->
+        <scene sceneID="G11-me-8nz">
+            <objects>
+                <viewController id="fLO-pz-CDN" customClass="IBDrumViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JEm-16-JC7">
+                        <rect key="frame" x="0.0" y="64" width="480" height="256"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpW-JF-ESw" customClass="BBGridView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaW-8r-Thd" customClass="BBTickView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVp-Z3-W2L">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTapped:" destination="fLO-pz-CDN" eventType="touchUpInside" id="aWe-pb-nAf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7S-y5-9BQ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopTapped:" destination="fLO-pz-CDN" eventType="touchUpInside" id="NDw-ss-ieH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tempo: 120" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-JI-Mr9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="iZ4-VP-nLI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="50" maxValue="250" translatesAutoresizingMaskIntoConstraints="NO" id="D0A-CR-x5G">
+                                <connections>
+                                    <action selector="sliderFinished:" destination="fLO-pz-CDN" eventType="touchUpOutside" id="CKd-JP-Fvv"/>
+                                    <action selector="sliderFinished:" destination="fLO-pz-CDN" eventType="touchUpInside" id="qcx-Ko-sBd"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jaW-8r-Thd" firstAttribute="top" secondItem="JEm-16-JC7" secondAttribute="top" constant="6" id="9D5-la-DTz"/>
+                            <constraint firstAttribute="bottom" secondItem="kVp-Z3-W2L" secondAttribute="bottom" constant="3" id="FcI-QK-p0h"/>
+                            <constraint firstItem="kVp-Z3-W2L" firstAttribute="leading" secondItem="JEm-16-JC7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KDY-HD-b4U"/>
+                            <constraint firstItem="D0A-CR-x5G" firstAttribute="leading" secondItem="kVp-Z3-W2L" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="LOZ-5B-Sbs"/>
+                            <constraint firstAttribute="trailing" secondItem="v7S-y5-9BQ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Pbs-09-asg"/>
+                            <constraint firstItem="bpW-JF-ESw" firstAttribute="top" secondItem="JEm-16-JC7" secondAttribute="top" constant="31" id="TXE-aF-jCv"/>
+                            <constraint firstAttribute="trailing" secondItem="jaW-8r-Thd" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gWs-xJ-5tt"/>
+                            <constraint firstAttribute="trailing" secondItem="bpW-JF-ESw" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gzr-Gc-ILN"/>
+                            <constraint firstItem="kVp-Z3-W2L" firstAttribute="top" secondItem="bpW-JF-ESw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jgL-f2-3dd"/>
+                            <constraint firstItem="bpW-JF-ESw" firstAttribute="leading" secondItem="JEm-16-JC7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="kKd-Bv-1SN"/>
+                            <constraint firstItem="D0A-CR-x5G" firstAttribute="bottom" secondItem="JEm-16-JC7" secondAttribute="bottom" type="default" id="ka4-qj-f99"/>
+                            <constraint firstItem="v7S-y5-9BQ" firstAttribute="leading" secondItem="D0A-CR-x5G" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="kjL-TX-Zhd"/>
+                            <constraint firstItem="jaW-8r-Thd" firstAttribute="leading" secondItem="JEm-16-JC7" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="olG-qL-9mc"/>
+                            <constraint firstItem="bpW-JF-ESw" firstAttribute="top" secondItem="jaW-8r-Thd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="q5N-6Y-DV7"/>
+                            <constraint firstItem="hMS-JI-Mr9" firstAttribute="top" secondItem="bpW-JF-ESw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qQG-xJ-kO4"/>
+                            <constraint firstItem="hMS-JI-Mr9" firstAttribute="centerX" secondItem="D0A-CR-x5G" secondAttribute="centerX" type="default" id="qsh-Ba-I2B"/>
+                            <constraint firstItem="v7S-y5-9BQ" firstAttribute="baseline" secondItem="kVp-Z3-W2L" secondAttribute="baseline" type="default" id="vEb-kA-ShF"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Drum" id="RFN-nw-lqL"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="bbGridView" destination="bpW-JF-ESw" id="36N-RX-AIh"/>
+                        <outlet property="bbTickView" destination="jaW-8r-Thd" id="917-6t-AX3"/>
+                        <outlet property="tempoLabel" destination="hMS-JI-Mr9" id="6OD-jG-3pd"/>
+                        <outlet property="tempoSlider" destination="D0A-CR-x5G" id="2QH-6Q-Qzg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RlI-qJ-tBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="583"/>
+        </scene>
+        <!--Band Member Table View Controller - Band Member-->
+        <scene sceneID="lYM-ZW-dV3">
+            <objects>
+                <tableViewController id="OgD-Y5-b9D" customClass="IBBandMemberTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="XSm-Ih-Xlr">
+                        <rect key="frame" x="0.0" y="64" width="480" height="256"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="device" textLabel="ZfE-6k-K8g" style="IBUITableViewCellStyleDefault" id="d3s-yQ-Amp">
+                                <rect key="frame" x="0.0" y="22" width="480" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="480" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZfE-6k-K8g">
+                                            <rect key="frame" x="10" y="0.0" width="460" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="OgD-Y5-b9D" id="ctV-oj-Rsi"/>
+                            <outlet property="delegate" destination="OgD-Y5-b9D" id="bme-dS-3ze"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Band Member" id="EQG-rc-FjG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLd-v5-64Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="-291"/>
+        </scene>
+        <!--Initial View Controller - Choose Instrument-->
+        <scene sceneID="cgW-wD-3yS">
+            <objects>
+                <viewController id="D7T-Kr-daK" customClass="IBInitialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6hb-WL-w8R">
+                        <rect key="frame" x="0.0" y="64" width="480" height="256"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="plZ-lv-nDP">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Instrument" textLabel="0zO-Zc-BHZ" style="IBUITableViewCellStyleDefault" id="MQe-3d-RVq">
+                                        <rect key="frame" x="0.0" y="22" width="480" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="460" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0zO-Zc-BHZ">
+                                                    <rect key="frame" x="10" y="0.0" width="440" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="D7T-Kr-daK" id="HOB-M0-Uei"/>
+                                    <outlet property="delegate" destination="D7T-Kr-daK" id="aLM-gv-aRQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="plZ-lv-nDP" firstAttribute="top" secondItem="6hb-WL-w8R" secondAttribute="top" type="default" id="POg-H7-xmF"/>
+                            <constraint firstItem="plZ-lv-nDP" firstAttribute="bottom" secondItem="6hb-WL-w8R" secondAttribute="bottom" type="default" id="skA-ig-an8"/>
+                            <constraint firstItem="plZ-lv-nDP" firstAttribute="trailing" secondItem="6hb-WL-w8R" secondAttribute="trailing" type="default" id="txC-KR-IeR"/>
+                            <constraint firstItem="plZ-lv-nDP" firstAttribute="leading" secondItem="6hb-WL-w8R" secondAttribute="leading" type="default" id="wHy-bo-Zfb"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose Instrument" id="hQY-10-f0e">
+                        <barButtonItem key="rightBarButtonItem" image="User.png" id="vlU-2P-IEg">
+                            <connections>
+                                <segue destination="OgD-Y5-b9D" kind="push" identifier="Band Member" id="AZo-cN-yGF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="plZ-lv-nDP" id="4UW-hj-CDE"/>
+                        <segue destination="C1H-fb-Mvl" kind="push" identifier="Piano" id="a1e-RN-deH"/>
+                        <segue destination="fLO-pz-CDN" kind="push" identifier="Drum" id="xU1-Ja-Kkn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSk-Uu-Zvu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-365" y="164"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fxC-Ny-4YT">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="hM1-Sl-fjN" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="dJE-nQ-cWh">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="D7T-Kr-daK" kind="relationship" relationship="rootViewController" id="Hr4-cw-ery"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wjk-FL-Gff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-923" y="164"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="User.png" width="26" height="26"/>
+    </resources>
+    <classes>
+        <class className="BBGridView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BBGridView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="datasource"/>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="BBTickView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BBTickView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="IBBandMemberTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBBandMemberTableViewController.h"/>
+        </class>
+        <class className="IBDrumViewController" superclassName="IBInstrumentViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBDrumViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="bbGridView" candidateClass="BBGridView"/>
+                <relationship kind="outlet" name="bbTickView" candidateClass="BBTickView"/>
+                <relationship kind="outlet" name="tempoLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tempoSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="IBInitialViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBInitialViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="IBInstrumentViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBInstrumentViewController.h"/>
+        </class>
+        <class className="IBPianoViewController" superclassName="IBInstrumentViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBPianoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="keyboard" candidateClass="KeyboardView"/>
+                <relationship kind="outlet" name="octaveRange" candidateClass="OctaveRangeSelectionView"/>
+            </relationships>
+        </class>
+        <class className="KeyboardView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KeyboardView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="OctaveRangeSelectionView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OctaveRangeSelectionView.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,17 @@
+
+DEPENDENCIES: 
+- BBGroover (~> 0.1.0)
+- DTBonjour (~> 1.0.0)
+- ObjectAL-for-iPhone (~> 2.1)
+
+COCOAPODS: 0.16.4
+
+PODS: 
+- BBGroover (0.1.0)
+- DTBonjour (1.0.0)
+- ObjectAL-for-iPhone (2.2)
+
+SPEC CHECKSUMS: 
+  DTBonjour: b88769fc76c5557b2ce2111d8305cd56822d63d8
+  BBGroover: 2233821e6c065bd9f5fd8c609f8b74dc0b5e92a2
+  ObjectAL-for-iPhone: 9c73eb3f9e06662ac48d1aa2dd8facf2b3552cb1
