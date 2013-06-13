@@ -1,2525 +1,587 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0009D621F7AD422384FB6B26</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>mach_timing.c</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/mach_timing.c</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0021479337E049868FCF5FBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALSimpleAudio.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OALSimpleAudio.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>02013DFB51FA43CA9D3B60FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B531F805C4084D378D5AA332</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>0418215374A142EEAF0FE52B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SynthesizeSingleton.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/SynthesizeSingleton.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>08D67E7AAAE2467CB4798428</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A0875121C9F14CD4A32D02BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>0A18973DEB9543EFBA3DC427</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSMutableArray+WeakReferences.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableArray+WeakReferences.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0B09CB194CBB4E679631B025</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB88140E387847ED89ACC54C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>0BD766A00DED49E4880AAB53</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75C056322E974A8195C22180</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>0CE8F9D9D4B7424C844F24AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ObjectALMacros.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/ObjectALMacros.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0E33DCA05EC742D380E0DD16</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>11639A739388461C8894657D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>620E5A758092488FA4D45A94</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>127C9C4CDD194F748E48BB51</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8B49EBB43834C4CBBAC79D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>15BCE12D3B854A8EB3A1ACE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALListener.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALListener.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>17953DA61291490BB4AC86F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8896944DFD23409F8F009DE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>17C5A72D8A8848549AB4BD08</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61C1B5311BBA486B95812CA3</string>
-				<string>6244D0E74FEB4A35A4EAEF5A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>18B4B4FE0D2149B7B15DA20C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IOSVersion.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/IOSVersion.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1A2C010810D24E75B6B70CA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAction+Private.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction+Private.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1A47D3E25A2C4E4FA54B2538</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BBGroove.m</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBGroove.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1AF31EAAE0A342F28A6DEAB8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8400924E9F4940BA89B6E234</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1B5921C897D2454CB6A22FE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA2354CE6F5345CBA0770098</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1BEA94E97D19403F9B03B781</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CD503D4EA74C44A7C49E3D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1E7B76C764EC4DB98B696261</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2960B6CB04B4EBE8007F581</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1F1DDCD540704B54B76A0FBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>357A0FAA577C4937B8B24168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1FFD98E505BC4AD09BB37EA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>20E66322D8334BC5B3B61EAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALUtilityActions.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALUtilityActions.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>24536048987C44F0AA36AC7D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4F5715085884FD8B19A5A02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>26AEF6511C01457AA4EFEDEF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18B4B4FE0D2149B7B15DA20C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2748F383F267490FA9CD8139</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4646B70194CE4111A08B870B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>28A5297BC4FD4CD98144A9F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0009D621F7AD422384FB6B26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2AB42D70F98D4CA59A960EF7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02013DFB51FA43CA9D3B60FD</string>
-				<string>B55C00EF77CA4D7B953A953B</string>
-				<string>0BD766A00DED49E4880AAB53</string>
-				<string>908271806B3B48C69A18CF6D</string>
-				<string>7358D6645C914FBBAA3BF036</string>
-				<string>1F1DDCD540704B54B76A0FBC</string>
-				<string>6E0706331C9148E4B65F0AC3</string>
-				<string>9A6BF23B464B4D49A73BC718</string>
-				<string>F13E35BBD5D5464BB6AC6D47</string>
-				<string>C207EDC0EAE24CD4A1C85AD9</string>
-				<string>CB07B1A8B6E6438897E243CB</string>
-				<string>24536048987C44F0AA36AC7D</string>
-				<string>9D34BAE90C594A47A3639749</string>
-				<string>EC7E7EBEB4B94DBDAC6A1306</string>
-				<string>E159B837124D4FD8BFEBD1ED</string>
-				<string>91084F755FEB49A8896080D1</string>
-				<string>445CEDC98B854C11894B1507</string>
-				<string>E558877B7EFC4F8FB61DB2DB</string>
-				<string>57C77FA7140F4610BA95D72E</string>
-				<string>A855FC33C89D4C3192508992</string>
-				<string>D10036F3446F401D9C88297A</string>
-				<string>4673042CBEBD4A95A0A8F312</string>
-				<string>E5906D37A3E9409FACE22B6C</string>
-				<string>BAE4CE01094A4D9DB0471C46</string>
-				<string>94ECA1914F924C3B8B12652C</string>
-				<string>5F94C481DA7B4F13B0066755</string>
-				<string>737A618C3E3E4059B5F4614B</string>
-				<string>D0B54182FB5D4D25B4A0235D</string>
-				<string>EC87D9BCFBCB4D94A1EADFA9</string>
-				<string>127C9C4CDD194F748E48BB51</string>
-				<string>940A08DC415B4A0783379F9B</string>
-				<string>DF8A185CC401400B82B0E51A</string>
-				<string>59597D2799294750AC2E78E8</string>
-				<string>BF08721569CC46B981F1C915</string>
-				<string>A49D6062E62E4699A71BC457</string>
-				<string>C8B2627E42324188972C3846</string>
-				<string>83FB93FEF1124EBF83CF3C29</string>
-				<string>08D67E7AAAE2467CB4798428</string>
-				<string>0B09CB194CBB4E679631B025</string>
-				<string>86D022CA815A497681C5E8B3</string>
-				<string>A21D429BA5DF48F6AD2DE003</string>
-				<string>C959424FFCF344FAA2B65B1C</string>
-				<string>32851073C263465AAFC44F74</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2F84D5BB237B4B09B07E664E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69867316EAA741BA99737022</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>32851073C263465AAFC44F74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0418215374A142EEAF0FE52B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>33A4D6D035914F829F925F48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALChannelSource.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALChannelSource.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>34027BBE62A542E786676088</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALChannelSource.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALChannelSource.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>357A0FAA577C4937B8B24168</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DTBonjourDataConnection.h</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourDataConnection.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>36A4FE6D2E794A09B7BAD472</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4EA82300F84243B7873FC12C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>3D00D708541E4ADCBDBA89D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALBuffer.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALBuffer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3EFDEF5DC5754521B6060357</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BBVoice.m</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBVoice.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3F74E24AD296420D859F27C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALUtilityActions.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALUtilityActions.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>40DFCA954B374DAF8B38D6FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALContext.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALContext.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>445CEDC98B854C11894B1507</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBD2BF3947AE4D408C26E45E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>4646B70194CE4111A08B870B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALTools.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALTools.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4673042CBEBD4A95A0A8F312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33A4D6D035914F829F925F48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>47D5EBA4D739406AA056135A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DTBonjourDataChunk.h</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourDataChunk.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4A755775F6674A52BC7735E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDF523374E004403A7896AA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>4B1CF066DFCE47D4824280F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSMutableDictionary+WeakReferences.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableDictionary+WeakReferences.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4C555539C103491F8D1B53D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A650A3965564C8FABF932B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>4CD1619EFEAF45FD988FFE78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSMutableArray+WeakReferences.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableArray+WeakReferences.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4D24F42EAC074208A51D5B97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALWrapper.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALWrapper.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4EA82300F84243B7873FC12C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BBGroover.m</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBGroover.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4FA5B3C2EB5749418E537150</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F87F541569794BAC80B6A7D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>50CCEC3B2D294319B6544CA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D904C7D5A724155B3AA3382</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5446AFEAB56E4006A312DAFC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F2648C6BDB9C493298AB7CCC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AB132D9AFEA14E0FB757B1E9</string>
-				<string>A4E1D4E0908C4EF284F91964</string>
-				<string>2AB42D70F98D4CA59A960EF7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>0E33DCA05EC742D380E0DD16</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>550C912DCB584E7A846F9B75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B1CF066DFCE47D4824280F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>55650668AD844F689BF8D5BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALSource.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSource.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5627412394B544DA9D011F47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALActionManager.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALActionManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>57C77FA7140F4610BA95D72E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFF93700689A465A8346AD10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>59597D2799294750AC2E78E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A792804364FC49358FC74C65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5F85162DA6FE43BDAC85B689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSScanner+DTBonjour.h</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/NSScanner+DTBonjour.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5F94C481DA7B4F13B0066755</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6230CC8ADB744AB9365029F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>61C1B5311BBA486B95812CA3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>620E5A758092488FA4D45A94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioSession.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALAudioSession.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6244D0E74FEB4A35A4EAEF5A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>65928091FCC445DE8A899330</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFB75076111A4A779B2E71BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>65ABDB10713048A6834A478B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALSuspendHandler.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALSuspendHandler.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>69867316EAA741BA99737022</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioFile.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALAudioFile.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6B09047777124A36AC4BC037</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALCaptureDevice.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALCaptureDevice.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6B4696B39B1544D4A2258DF3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20E66322D8334BC5B3B61EAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6BF9C372C1ED447DB24F590C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAction.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6E0706331C9148E4B65F0AC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B1224656B0D741AAB9BDFF31</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>707D08C1B17943B4B493E612</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OpenALManager.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/OpenALManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>70CE643682694A379468D3E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A318D29DA7A459D8776D71A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7175460544E64B6985D63C55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioSession.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALAudioSession.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>72F4BC071FCA4B8CBEA8086A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALTypes.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALTypes.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7358D6645C914FBBAA3BF036</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47D5EBA4D739406AA056135A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>737A618C3E3E4059B5F4614B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80EADC2635C545F99F6A538D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>74EB92947B4F4AA28DCD9361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>707D08C1B17943B4B493E612</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>756A8F3DD14A4318BEA50743</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>95F023C2D8534B8D9A9ACE7D</string>
-				<string>8896944DFD23409F8F009DE8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75C056322E974A8195C22180</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BBVoice.h</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBVoice.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7640BE9657B54FC7AABED3D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALListener.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALListener.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7A3F5EEC6625417BBEA13B62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DTBonjourServer.m</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourServer.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7A53D3D39C3D4F2FAB2FFB69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALDevice.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALDevice.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7A650A3965564C8FABF932B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioActions.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAudioActions.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7D904C7D5A724155B3AA3382</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALDevice.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALDevice.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>80EADC2635C545F99F6A538D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALSoundSourcePool.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSourcePool.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>829DC9C4137748D58362DE13</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F3E1C83B1FC49D4BA081D90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83FB93FEF1124EBF83CF3C29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A18973DEB9543EFBA3DC427</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8400924E9F4940BA89B6E234</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DTBonjourDataConnection.m</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourDataConnection.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>866A7883FCFB4C1CAF8DEBC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EFDEF5DC5754521B6060357</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>86D022CA815A497681C5E8B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D226588807A24897934886D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>87BF2FEC96884E2098442039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A47D3E25A2C4E4FA54B2538</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>8896944DFD23409F8F009DE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>path</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>88FC874D9BC34630A3715E08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSNumber+Utilities.h</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/Categories/NSNumber+Utilities.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8A318D29DA7A459D8776D71A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioTrack.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrack.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8A7BB67D28E84896AFC1AE31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34027BBE62A542E786676088</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8CC0E4EBB2D649E1A777C9A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALBuffer.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALBuffer.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8EF17E6D0E8F430EAA8BCB36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IOSVersion.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/IOSVersion.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8F682C1A4587451380409592</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioTracks.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTracks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>908271806B3B48C69A18CF6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88FC874D9BC34630A3715E08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>91084F755FEB49A8896080D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F682C1A4587451380409592</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>940A08DC415B4A0783379F9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F87F0BAF04B5455783C2177B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>94ECA1914F924C3B8B12652C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15BCE12D3B854A8EB3A1ACE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>95F023C2D8534B8D9A9ACE7D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ADD631DCF95A4484B622049B</string>
-				<string>CCD9D5C742DD43229271341B</string>
-				<string>1FFD98E505BC4AD09BB37EA4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98768BC53B254A3AA0B912F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6E6B8ABFCC445ABB7312189</string>
-				<string>A9BA7B5CD7B44197953A513E</string>
-				<string>E65DCAE0313649189EB1EB4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A6BF23B464B4D49A73BC718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F85162DA6FE43BDAC85B689</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9D34BAE90C594A47A3639749</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F74E24AD296420D859F27C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9E5FBE95FC4D48F5956FA6B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ObjectAL.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/ObjectAL.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9F3E1C83B1FC49D4BA081D90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A0875121C9F14CD4A32D02BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSMutableDictionary+WeakReferences.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableDictionary+WeakReferences.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A21D429BA5DF48F6AD2DE003</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D82D3BF6C4B448809ADDC85B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A49D6062E62E4699A71BC457</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8EF17E6D0E8F430EAA8BCB36</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A4BBB37997974F9DA4CBAF09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DTBonjourDataChunk.m</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourDataChunk.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A4E1D4E0908C4EF284F91964</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F49510EAB24B465C8F20356C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A6B3AF7B47AE4098878EC377</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>17C5A72D8A8848549AB4BD08</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>BF2046041D894E49BC680A7C</string>
-			<key>productRefGroup</key>
-			<string>DE3D8BCDEC1C451F996B6774</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>5446AFEAB56E4006A312DAFC</string>
-			</array>
-		</dict>
-		<key>A792804364FC49358FC74C65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALSuspendHandler.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALSuspendHandler.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A855FC33C89D4C3192508992</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D00D708541E4ADCBDBA89D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A902EAFB870D4EC6A7AB0EDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioTrackNotifications.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrackNotifications.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A9BA7B5CD7B44197953A513E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>47D5EBA4D739406AA056135A</string>
-				<string>357A0FAA577C4937B8B24168</string>
-				<string>B1224656B0D741AAB9BDFF31</string>
-				<string>5F85162DA6FE43BDAC85B689</string>
-				<string>A4BBB37997974F9DA4CBAF09</string>
-				<string>8400924E9F4940BA89B6E234</string>
-				<string>7A3F5EEC6625417BBEA13B62</string>
-				<string>F2960B6CB04B4EBE8007F581</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DTBonjour</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA2354CE6F5345CBA0770098</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSNumber+Utilities.m</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/Categories/NSNumber+Utilities.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AB132D9AFEA14E0FB757B1E9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>87BF2FEC96884E2098442039</string>
-				<string>36A4FE6D2E794A09B7BAD472</string>
-				<string>866A7883FCFB4C1CAF8DEBC5</string>
-				<string>1B5921C897D2454CB6A22FE1</string>
-				<string>B14B799EB66E4B10B9F3965C</string>
-				<string>1AF31EAAE0A342F28A6DEAB8</string>
-				<string>C0F82EC3201C47E8AAA25EB2</string>
-				<string>1E7B76C764EC4DB98B696261</string>
-				<string>65928091FCC445DE8A899330</string>
-				<string>4A755775F6674A52BC7735E3</string>
-				<string>4C555539C103491F8D1B53D3</string>
-				<string>6B4696B39B1544D4A2258DF3</string>
-				<string>70CE643682694A379468D3E6</string>
-				<string>1BEA94E97D19403F9B03B781</string>
-				<string>4FA5B3C2EB5749418E537150</string>
-				<string>CA260D99E1B0495F819A6049</string>
-				<string>E1D0E1F28C6B434FB5277CC9</string>
-				<string>FBC32B2DCCC443C081864D1E</string>
-				<string>8A7BB67D28E84896AFC1AE31</string>
-				<string>B3C23A9439F545EC95A99D29</string>
-				<string>50CCEC3B2D294319B6544CA1</string>
-				<string>B1A3AD461AF147958BF18D7F</string>
-				<string>F900338B360E4C648DC15912</string>
-				<string>C3A5988444174119A5E52F17</string>
-				<string>C57DE9E7BCBB440F89843945</string>
-				<string>74EB92947B4F4AA28DCD9361</string>
-				<string>11639A739388461C8894657D</string>
-				<string>C2AAD59A7DC041EDAAFC369A</string>
-				<string>26AEF6511C01457AA4EFEDEF</string>
-				<string>28A5297BC4FD4CD98144A9F4</string>
-				<string>BFD3A40E304E42A09B4A83A2</string>
-				<string>550C912DCB584E7A846F9B75</string>
-				<string>2F84D5BB237B4B09B07E664E</string>
-				<string>2748F383F267490FA9CD8139</string>
-				<string>17953DA61291490BB4AC86F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ADD631DCF95A4484B622049B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AFF93700689A465A8346AD10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ObjectALConfig.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/ObjectALConfig.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B1224656B0D741AAB9BDFF31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DTBonjourServer.h</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/DTBonjourServer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B14B799EB66E4B10B9F3965C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A4BBB37997974F9DA4CBAF09</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B1A3AD461AF147958BF18D7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7640BE9657B54FC7AABED3D7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B3C23A9439F545EC95A99D29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D48DDC07D19E4DB08C54641C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B531F805C4084D378D5AA332</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BBGroove.h</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBGroove.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B55C00EF77CA4D7B953A953B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7A9310D2BA242C08179B1C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B5B0941E98C6450A8707BE03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALSource.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSource.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B8B49EBB43834C4CBBAC79D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALWrapper.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALWrapper.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BAE4CE01094A4D9DB0471C46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A53D3D39C3D4F2FAB2FFB69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BBD2BF3947AE4D408C26E45E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALSimpleAudio.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OALSimpleAudio.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BF08721569CC46B981F1C915</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9FB723005E940859DEC9C82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BF2046041D894E49BC680A7C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE3D8BCDEC1C451F996B6774</string>
-				<string>829DC9C4137748D58362DE13</string>
-				<string>98768BC53B254A3AA0B912F2</string>
-				<string>756A8F3DD14A4318BEA50743</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFD3A40E304E42A09B4A83A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CD1619EFEAF45FD988FFE78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C0F82EC3201C47E8AAA25EB2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A3F5EEC6625417BBEA13B62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C207EDC0EAE24CD4A1C85AD9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BF9C372C1ED447DB24F590C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C2AAD59A7DC041EDAAFC369A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>65ABDB10713048A6834A478B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C3A5988444174119A5E52F17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5B0941E98C6450A8707BE03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C57DE9E7BCBB440F89843945</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D24F42EAC074208A51D5B97</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C6230CC8ADB744AB9365029F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALSoundSource.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSource.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C8B2627E42324188972C3846</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEE5BEFF84AB42D18625FA04</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C959424FFCF344FAA2B65B1C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE8F9D9D4B7424C844F24AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CA260D99E1B0495F819A6049</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0021479337E049868FCF5FBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CB07B1A8B6E6438897E243CB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5627412394B544DA9D011F47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CCD9D5C742DD43229271341B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CCF639AB307E4A0EB2F42111</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1FFD98E505BC4AD09BB37EA4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D0B54182FB5D4D25B4A0235D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>55650668AD844F689BF8D5BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D10036F3446F401D9C88297A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5635AD7BD544C9893B68729</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D226588807A24897934886D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALNotifications.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALNotifications.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D48DDC07D19E4DB08C54641C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALContext.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALContext.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D6E6B8ABFCC445ABB7312189</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B531F805C4084D378D5AA332</string>
-				<string>F7A9310D2BA242C08179B1C2</string>
-				<string>75C056322E974A8195C22180</string>
-				<string>88FC874D9BC34630A3715E08</string>
-				<string>1A47D3E25A2C4E4FA54B2538</string>
-				<string>4EA82300F84243B7873FC12C</string>
-				<string>3EFDEF5DC5754521B6060357</string>
-				<string>AA2354CE6F5345CBA0770098</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BBGroover</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D82D3BF6C4B448809ADDC85B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALTools.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALTools.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DB88140E387847ED89ACC54C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioFile.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALAudioFile.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DE3D8BCDEC1C451F996B6774</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0E33DCA05EC742D380E0DD16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEE5BEFF84AB42D18625FA04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>mach_timing.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/mach_timing.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DF8A185CC401400B82B0E51A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7175460544E64B6985D63C55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E159B837124D4FD8BFEBD1ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A902EAFB870D4EC6A7AB0EDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E1D0E1F28C6B434FB5277CC9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CC0E4EBB2D649E1A777C9A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E558877B7EFC4F8FB61DB2DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E5FBE95FC4D48F5956FA6B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E5906D37A3E9409FACE22B6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40DFCA954B374DAF8B38D6FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E65DCAE0313649189EB1EB4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1A2C010810D24E75B6B70CA4</string>
-				<string>6BF9C372C1ED447DB24F590C</string>
-				<string>FFB75076111A4A779B2E71BD</string>
-				<string>5627412394B544DA9D011F47</string>
-				<string>EDF523374E004403A7896AA4</string>
-				<string>F4F5715085884FD8B19A5A02</string>
-				<string>7A650A3965564C8FABF932B2</string>
-				<string>3F74E24AD296420D859F27C9</string>
-				<string>20E66322D8334BC5B3B61EAE</string>
-				<string>F7651C132E314D66A0244090</string>
-				<string>8A318D29DA7A459D8776D71A</string>
-				<string>A902EAFB870D4EC6A7AB0EDC</string>
-				<string>F5CD503D4EA74C44A7C49E3D</string>
-				<string>8F682C1A4587451380409592</string>
-				<string>F87F541569794BAC80B6A7D6</string>
-				<string>BBD2BF3947AE4D408C26E45E</string>
-				<string>0021479337E049868FCF5FBB</string>
-				<string>9E5FBE95FC4D48F5956FA6B2</string>
-				<string>AFF93700689A465A8346AD10</string>
-				<string>3D00D708541E4ADCBDBA89D0</string>
-				<string>8CC0E4EBB2D649E1A777C9A2</string>
-				<string>F5635AD7BD544C9893B68729</string>
-				<string>6B09047777124A36AC4BC037</string>
-				<string>33A4D6D035914F829F925F48</string>
-				<string>34027BBE62A542E786676088</string>
-				<string>40DFCA954B374DAF8B38D6FD</string>
-				<string>D48DDC07D19E4DB08C54641C</string>
-				<string>7A53D3D39C3D4F2FAB2FFB69</string>
-				<string>7D904C7D5A724155B3AA3382</string>
-				<string>15BCE12D3B854A8EB3A1ACE4</string>
-				<string>7640BE9657B54FC7AABED3D7</string>
-				<string>C6230CC8ADB744AB9365029F</string>
-				<string>80EADC2635C545F99F6A538D</string>
-				<string>F7682D14B77F43B497754972</string>
-				<string>55650668AD844F689BF8D5BA</string>
-				<string>B5B0941E98C6450A8707BE03</string>
-				<string>72F4BC071FCA4B8CBEA8086A</string>
-				<string>B8B49EBB43834C4CBBAC79D6</string>
-				<string>4D24F42EAC074208A51D5B97</string>
-				<string>F87F0BAF04B5455783C2177B</string>
-				<string>707D08C1B17943B4B493E612</string>
-				<string>7175460544E64B6985D63C55</string>
-				<string>620E5A758092488FA4D45A94</string>
-				<string>A792804364FC49358FC74C65</string>
-				<string>65ABDB10713048A6834A478B</string>
-				<string>E9FB723005E940859DEC9C82</string>
-				<string>8EF17E6D0E8F430EAA8BCB36</string>
-				<string>18B4B4FE0D2149B7B15DA20C</string>
-				<string>0009D621F7AD422384FB6B26</string>
-				<string>DEE5BEFF84AB42D18625FA04</string>
-				<string>0A18973DEB9543EFBA3DC427</string>
-				<string>4CD1619EFEAF45FD988FFE78</string>
-				<string>A0875121C9F14CD4A32D02BB</string>
-				<string>4B1CF066DFCE47D4824280F5</string>
-				<string>DB88140E387847ED89ACC54C</string>
-				<string>69867316EAA741BA99737022</string>
-				<string>D226588807A24897934886D8</string>
-				<string>D82D3BF6C4B448809ADDC85B</string>
-				<string>4646B70194CE4111A08B870B</string>
-				<string>0CE8F9D9D4B7424C844F24AC</string>
-				<string>0418215374A142EEAF0FE52B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ObjectAL-for-iPhone</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9FB723005E940859DEC9C82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ARCSafe_MemMgmt.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/ARCSafe_MemMgmt.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>EC7E7EBEB4B94DBDAC6A1306</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7651C132E314D66A0244090</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EC87D9BCFBCB4D94A1EADFA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72F4BC071FCA4B8CBEA8086A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EDF523374E004403A7896AA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALActionManager.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALActionManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F13E35BBD5D5464BB6AC6D47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A2C010810D24E75B6B70CA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F2648C6BDB9C493298AB7CCC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CCF639AB307E4A0EB2F42111</string>
-				<string>FB88722EF1154CE592B85327</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F2960B6CB04B4EBE8007F581</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSScanner+DTBonjour.m</string>
-			<key>path</key>
-			<string>DTBonjour/Core/Source/NSScanner+DTBonjour.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F49510EAB24B465C8F20356C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F3E1C83B1FC49D4BA081D90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F4F5715085884FD8B19A5A02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioActions.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAudioActions.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F5635AD7BD544C9893B68729</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALCaptureDevice.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALCaptureDevice.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F5CD503D4EA74C44A7C49E3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioTrackNotifications.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrackNotifications.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F7651C132E314D66A0244090</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OALAudioTrack.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrack.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F7682D14B77F43B497754972</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALSoundSourcePool.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSourcePool.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F7A9310D2BA242C08179B1C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BBGroover.h</string>
-			<key>path</key>
-			<string>BBGroover/BBGroover/Grooving/BBGroover.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F87F0BAF04B5455783C2177B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OpenALManager.h</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/OpenALManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F87F541569794BAC80B6A7D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAudioTracks.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTracks.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F900338B360E4C648DC15912</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7682D14B77F43B497754972</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FB88722EF1154CE592B85327</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1FFD98E505BC4AD09BB37EA4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FBC32B2DCCC443C081864D1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6B09047777124A36AC4BC037</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FFB75076111A4A779B2E71BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OALAction.m</string>
-			<key>path</key>
-			<string>ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>A6B3AF7B47AE4098878EC377</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02013DFB51FA43CA9D3B60FD /* BBGroove.h in Headers */ = {isa = PBXBuildFile; fileRef = B531F805C4084D378D5AA332 /* BBGroove.h */; };
+		08D67E7AAAE2467CB4798428 /* NSMutableDictionary+WeakReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A0875121C9F14CD4A32D02BB /* NSMutableDictionary+WeakReferences.h */; };
+		0B09CB194CBB4E679631B025 /* OALAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = DB88140E387847ED89ACC54C /* OALAudioFile.h */; };
+		0BD766A00DED49E4880AAB53 /* BBVoice.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C056322E974A8195C22180 /* BBVoice.h */; };
+		11639A739388461C8894657D /* OALAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E5A758092488FA4D45A94 /* OALAudioSession.m */; };
+		127C9C4CDD194F748E48BB51 /* ALWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B49EBB43834C4CBBAC79D6 /* ALWrapper.h */; };
+		17953DA61291490BB4AC86F8 /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 8896944DFD23409F8F009DE8 /* PodsDummy_Pods.m */; };
+		1AF31EAAE0A342F28A6DEAB8 /* DTBonjourDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400924E9F4940BA89B6E234 /* DTBonjourDataConnection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1B5921C897D2454CB6A22FE1 /* NSNumber+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2354CE6F5345CBA0770098 /* NSNumber+Utilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1BEA94E97D19403F9B03B781 /* OALAudioTrackNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD503D4EA74C44A7C49E3D /* OALAudioTrackNotifications.m */; };
+		1E7B76C764EC4DB98B696261 /* NSScanner+DTBonjour.m in Sources */ = {isa = PBXBuildFile; fileRef = F2960B6CB04B4EBE8007F581 /* NSScanner+DTBonjour.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1F1DDCD540704B54B76A0FBC /* DTBonjourDataConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 357A0FAA577C4937B8B24168 /* DTBonjourDataConnection.h */; };
+		24536048987C44F0AA36AC7D /* OALAudioActions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F5715085884FD8B19A5A02 /* OALAudioActions.h */; };
+		26AEF6511C01457AA4EFEDEF /* IOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4B4FE0D2149B7B15DA20C /* IOSVersion.m */; };
+		2748F383F267490FA9CD8139 /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4646B70194CE4111A08B870B /* OALTools.m */; };
+		28A5297BC4FD4CD98144A9F4 /* mach_timing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0009D621F7AD422384FB6B26 /* mach_timing.c */; };
+		2F84D5BB237B4B09B07E664E /* OALAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 69867316EAA741BA99737022 /* OALAudioFile.m */; };
+		32851073C263465AAFC44F74 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0418215374A142EEAF0FE52B /* SynthesizeSingleton.h */; };
+		36A4FE6D2E794A09B7BAD472 /* BBGroover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA82300F84243B7873FC12C /* BBGroover.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		445CEDC98B854C11894B1507 /* OALSimpleAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD2BF3947AE4D408C26E45E /* OALSimpleAudio.h */; };
+		4673042CBEBD4A95A0A8F312 /* ALChannelSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A4D6D035914F829F925F48 /* ALChannelSource.h */; };
+		4A755775F6674A52BC7735E3 /* OALActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF523374E004403A7896AA4 /* OALActionManager.m */; };
+		4C555539C103491F8D1B53D3 /* OALAudioActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A650A3965564C8FABF932B2 /* OALAudioActions.m */; };
+		4FA5B3C2EB5749418E537150 /* OALAudioTracks.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F541569794BAC80B6A7D6 /* OALAudioTracks.m */; };
+		50CCEC3B2D294319B6544CA1 /* ALDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D904C7D5A724155B3AA3382 /* ALDevice.m */; };
+		550C912DCB584E7A846F9B75 /* NSMutableDictionary+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1CF066DFCE47D4824280F5 /* NSMutableDictionary+WeakReferences.m */; };
+		57C77FA7140F4610BA95D72E /* ObjectALConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF93700689A465A8346AD10 /* ObjectALConfig.h */; };
+		59597D2799294750AC2E78E8 /* OALSuspendHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A792804364FC49358FC74C65 /* OALSuspendHandler.h */; };
+		5F94C481DA7B4F13B0066755 /* ALSoundSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C6230CC8ADB744AB9365029F /* ALSoundSource.h */; };
+		65928091FCC445DE8A899330 /* OALAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB75076111A4A779B2E71BD /* OALAction.m */; };
+		6B4696B39B1544D4A2258DF3 /* OALUtilityActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E66322D8334BC5B3B61EAE /* OALUtilityActions.m */; };
+		6E0706331C9148E4B65F0AC3 /* DTBonjourServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1224656B0D741AAB9BDFF31 /* DTBonjourServer.h */; };
+		70CE643682694A379468D3E6 /* OALAudioTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A318D29DA7A459D8776D71A /* OALAudioTrack.m */; };
+		7358D6645C914FBBAA3BF036 /* DTBonjourDataChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D5EBA4D739406AA056135A /* DTBonjourDataChunk.h */; };
+		737A618C3E3E4059B5F4614B /* ALSoundSourcePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EADC2635C545F99F6A538D /* ALSoundSourcePool.h */; };
+		74EB92947B4F4AA28DCD9361 /* OpenALManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D08C1B17943B4B493E612 /* OpenALManager.m */; };
+		83FB93FEF1124EBF83CF3C29 /* NSMutableArray+WeakReferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A18973DEB9543EFBA3DC427 /* NSMutableArray+WeakReferences.h */; };
+		866A7883FCFB4C1CAF8DEBC5 /* BBVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEF5DC5754521B6060357 /* BBVoice.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		86D022CA815A497681C5E8B3 /* OALNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = D226588807A24897934886D8 /* OALNotifications.h */; };
+		87BF2FEC96884E2098442039 /* BBGroove.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A47D3E25A2C4E4FA54B2538 /* BBGroove.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8A7BB67D28E84896AFC1AE31 /* ALChannelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 34027BBE62A542E786676088 /* ALChannelSource.m */; };
+		908271806B3B48C69A18CF6D /* NSNumber+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FC874D9BC34630A3715E08 /* NSNumber+Utilities.h */; };
+		91084F755FEB49A8896080D1 /* OALAudioTracks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F682C1A4587451380409592 /* OALAudioTracks.h */; };
+		940A08DC415B4A0783379F9B /* OpenALManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F87F0BAF04B5455783C2177B /* OpenALManager.h */; };
+		94ECA1914F924C3B8B12652C /* ALListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BCE12D3B854A8EB3A1ACE4 /* ALListener.h */; };
+		9A6BF23B464B4D49A73BC718 /* NSScanner+DTBonjour.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F85162DA6FE43BDAC85B689 /* NSScanner+DTBonjour.h */; };
+		9D34BAE90C594A47A3639749 /* OALUtilityActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F74E24AD296420D859F27C9 /* OALUtilityActions.h */; };
+		A21D429BA5DF48F6AD2DE003 /* OALTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D82D3BF6C4B448809ADDC85B /* OALTools.h */; };
+		A49D6062E62E4699A71BC457 /* IOSVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF17E6D0E8F430EAA8BCB36 /* IOSVersion.h */; };
+		A855FC33C89D4C3192508992 /* ALBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D00D708541E4ADCBDBA89D0 /* ALBuffer.h */; };
+		B14B799EB66E4B10B9F3965C /* DTBonjourDataChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BBB37997974F9DA4CBAF09 /* DTBonjourDataChunk.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B1A3AD461AF147958BF18D7F /* ALListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 7640BE9657B54FC7AABED3D7 /* ALListener.m */; };
+		B3C23A9439F545EC95A99D29 /* ALContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D48DDC07D19E4DB08C54641C /* ALContext.m */; };
+		B55C00EF77CA4D7B953A953B /* BBGroover.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A9310D2BA242C08179B1C2 /* BBGroover.h */; };
+		BAE4CE01094A4D9DB0471C46 /* ALDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A53D3D39C3D4F2FAB2FFB69 /* ALDevice.h */; };
+		BF08721569CC46B981F1C915 /* ARCSafe_MemMgmt.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FB723005E940859DEC9C82 /* ARCSafe_MemMgmt.h */; };
+		BFD3A40E304E42A09B4A83A2 /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1619EFEAF45FD988FFE78 /* NSMutableArray+WeakReferences.m */; };
+		C0F82EC3201C47E8AAA25EB2 /* DTBonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F5EEC6625417BBEA13B62 /* DTBonjourServer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C207EDC0EAE24CD4A1C85AD9 /* OALAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF9C372C1ED447DB24F590C /* OALAction.h */; };
+		C2AAD59A7DC041EDAAFC369A /* OALSuspendHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDB10713048A6834A478B /* OALSuspendHandler.m */; };
+		C3A5988444174119A5E52F17 /* ALSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B0941E98C6450A8707BE03 /* ALSource.m */; };
+		C57DE9E7BCBB440F89843945 /* ALWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D24F42EAC074208A51D5B97 /* ALWrapper.m */; };
+		C8B2627E42324188972C3846 /* mach_timing.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE5BEFF84AB42D18625FA04 /* mach_timing.h */; };
+		C959424FFCF344FAA2B65B1C /* ObjectALMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE8F9D9D4B7424C844F24AC /* ObjectALMacros.h */; };
+		CA260D99E1B0495F819A6049 /* OALSimpleAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021479337E049868FCF5FBB /* OALSimpleAudio.m */; };
+		CB07B1A8B6E6438897E243CB /* OALActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5627412394B544DA9D011F47 /* OALActionManager.h */; };
+		D0B54182FB5D4D25B4A0235D /* ALSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 55650668AD844F689BF8D5BA /* ALSource.h */; };
+		D10036F3446F401D9C88297A /* ALCaptureDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F5635AD7BD544C9893B68729 /* ALCaptureDevice.h */; };
+		DF8A185CC401400B82B0E51A /* OALAudioSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7175460544E64B6985D63C55 /* OALAudioSession.h */; };
+		E159B837124D4FD8BFEBD1ED /* OALAudioTrackNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = A902EAFB870D4EC6A7AB0EDC /* OALAudioTrackNotifications.h */; };
+		E1D0E1F28C6B434FB5277CC9 /* ALBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0E4EBB2D649E1A777C9A2 /* ALBuffer.m */; };
+		E558877B7EFC4F8FB61DB2DB /* ObjectAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5FBE95FC4D48F5956FA6B2 /* ObjectAL.h */; };
+		E5906D37A3E9409FACE22B6C /* ALContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DFCA954B374DAF8B38D6FD /* ALContext.h */; };
+		EC7E7EBEB4B94DBDAC6A1306 /* OALAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F7651C132E314D66A0244090 /* OALAudioTrack.h */; };
+		EC87D9BCFBCB4D94A1EADFA9 /* ALTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F4BC071FCA4B8CBEA8086A /* ALTypes.h */; };
+		F13E35BBD5D5464BB6AC6D47 /* OALAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2C010810D24E75B6B70CA4 /* OALAction+Private.h */; };
+		F49510EAB24B465C8F20356C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3E1C83B1FC49D4BA081D90 /* Foundation.framework */; };
+		F900338B360E4C648DC15912 /* ALSoundSourcePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7682D14B77F43B497754972 /* ALSoundSourcePool.m */; };
+		FBC32B2DCCC443C081864D1E /* ALCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B09047777124A36AC4BC037 /* ALCaptureDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0009D621F7AD422384FB6B26 /* mach_timing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_timing.c; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/mach_timing.c"; sourceTree = SOURCE_ROOT; };
+		0021479337E049868FCF5FBB /* OALSimpleAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALSimpleAudio.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OALSimpleAudio.m"; sourceTree = SOURCE_ROOT; };
+		0418215374A142EEAF0FE52B /* SynthesizeSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/SynthesizeSingleton.h"; sourceTree = SOURCE_ROOT; };
+		0A18973DEB9543EFBA3DC427 /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+WeakReferences.h"; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableArray+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		0CE8F9D9D4B7424C844F24AC /* ObjectALMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectALMacros.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/ObjectALMacros.h"; sourceTree = SOURCE_ROOT; };
+		0E33DCA05EC742D380E0DD16 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BCE12D3B854A8EB3A1ACE4 /* ALListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALListener.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALListener.h"; sourceTree = SOURCE_ROOT; };
+		18B4B4FE0D2149B7B15DA20C /* IOSVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IOSVersion.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/IOSVersion.m"; sourceTree = SOURCE_ROOT; };
+		1A2C010810D24E75B6B70CA4 /* OALAction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OALAction+Private.h"; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction+Private.h"; sourceTree = SOURCE_ROOT; };
+		1A47D3E25A2C4E4FA54B2538 /* BBGroove.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBGroove.m; path = BBGroover/BBGroover/Grooving/BBGroove.m; sourceTree = SOURCE_ROOT; };
+		1FFD98E505BC4AD09BB37EA4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		20E66322D8334BC5B3B61EAE /* OALUtilityActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALUtilityActions.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALUtilityActions.m"; sourceTree = SOURCE_ROOT; };
+		33A4D6D035914F829F925F48 /* ALChannelSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALChannelSource.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALChannelSource.h"; sourceTree = SOURCE_ROOT; };
+		34027BBE62A542E786676088 /* ALChannelSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALChannelSource.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALChannelSource.m"; sourceTree = SOURCE_ROOT; };
+		357A0FAA577C4937B8B24168 /* DTBonjourDataConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourDataConnection.h; path = DTBonjour/Core/Source/DTBonjourDataConnection.h; sourceTree = SOURCE_ROOT; };
+		3D00D708541E4ADCBDBA89D0 /* ALBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALBuffer.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALBuffer.h"; sourceTree = SOURCE_ROOT; };
+		3EFDEF5DC5754521B6060357 /* BBVoice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBVoice.m; path = BBGroover/BBGroover/Grooving/BBVoice.m; sourceTree = SOURCE_ROOT; };
+		3F74E24AD296420D859F27C9 /* OALUtilityActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALUtilityActions.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALUtilityActions.h"; sourceTree = SOURCE_ROOT; };
+		40DFCA954B374DAF8B38D6FD /* ALContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALContext.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALContext.h"; sourceTree = SOURCE_ROOT; };
+		4646B70194CE4111A08B870B /* OALTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALTools.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALTools.m"; sourceTree = SOURCE_ROOT; };
+		47D5EBA4D739406AA056135A /* DTBonjourDataChunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourDataChunk.h; path = DTBonjour/Core/Source/DTBonjourDataChunk.h; sourceTree = SOURCE_ROOT; };
+		4B1CF066DFCE47D4824280F5 /* NSMutableDictionary+WeakReferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+WeakReferences.m"; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableDictionary+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		4CD1619EFEAF45FD988FFE78 /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+WeakReferences.m"; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableArray+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		4D24F42EAC074208A51D5B97 /* ALWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALWrapper.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALWrapper.m"; sourceTree = SOURCE_ROOT; };
+		4EA82300F84243B7873FC12C /* BBGroover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBGroover.m; path = BBGroover/BBGroover/Grooving/BBGroover.m; sourceTree = SOURCE_ROOT; };
+		55650668AD844F689BF8D5BA /* ALSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSource.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSource.h"; sourceTree = SOURCE_ROOT; };
+		5627412394B544DA9D011F47 /* OALActionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALActionManager.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALActionManager.h"; sourceTree = SOURCE_ROOT; };
+		5F85162DA6FE43BDAC85B689 /* NSScanner+DTBonjour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+DTBonjour.h"; path = "DTBonjour/Core/Source/NSScanner+DTBonjour.h"; sourceTree = SOURCE_ROOT; };
+		620E5A758092488FA4D45A94 /* OALAudioSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioSession.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALAudioSession.m"; sourceTree = SOURCE_ROOT; };
+		65ABDB10713048A6834A478B /* OALSuspendHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALSuspendHandler.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALSuspendHandler.m"; sourceTree = SOURCE_ROOT; };
+		69867316EAA741BA99737022 /* OALAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioFile.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALAudioFile.m"; sourceTree = SOURCE_ROOT; };
+		6B09047777124A36AC4BC037 /* ALCaptureDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALCaptureDevice.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALCaptureDevice.m"; sourceTree = SOURCE_ROOT; };
+		6BF9C372C1ED447DB24F590C /* OALAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAction.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction.h"; sourceTree = SOURCE_ROOT; };
+		707D08C1B17943B4B493E612 /* OpenALManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenALManager.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/OpenALManager.m"; sourceTree = SOURCE_ROOT; };
+		7175460544E64B6985D63C55 /* OALAudioSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioSession.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALAudioSession.h"; sourceTree = SOURCE_ROOT; };
+		72F4BC071FCA4B8CBEA8086A /* ALTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALTypes.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALTypes.h"; sourceTree = SOURCE_ROOT; };
+		75C056322E974A8195C22180 /* BBVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBVoice.h; path = BBGroover/BBGroover/Grooving/BBVoice.h; sourceTree = SOURCE_ROOT; };
+		7640BE9657B54FC7AABED3D7 /* ALListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALListener.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALListener.m"; sourceTree = SOURCE_ROOT; };
+		7A3F5EEC6625417BBEA13B62 /* DTBonjourServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourServer.m; path = DTBonjour/Core/Source/DTBonjourServer.m; sourceTree = SOURCE_ROOT; };
+		7A53D3D39C3D4F2FAB2FFB69 /* ALDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALDevice.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALDevice.h"; sourceTree = SOURCE_ROOT; };
+		7A650A3965564C8FABF932B2 /* OALAudioActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioActions.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAudioActions.m"; sourceTree = SOURCE_ROOT; };
+		7D904C7D5A724155B3AA3382 /* ALDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALDevice.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALDevice.m"; sourceTree = SOURCE_ROOT; };
+		80EADC2635C545F99F6A538D /* ALSoundSourcePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSoundSourcePool.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSourcePool.h"; sourceTree = SOURCE_ROOT; };
+		8400924E9F4940BA89B6E234 /* DTBonjourDataConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourDataConnection.m; path = DTBonjour/Core/Source/DTBonjourDataConnection.m; sourceTree = SOURCE_ROOT; };
+		8896944DFD23409F8F009DE8 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		88FC874D9BC34630A3715E08 /* NSNumber+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Utilities.h"; path = "BBGroover/BBGroover/Grooving/Categories/NSNumber+Utilities.h"; sourceTree = SOURCE_ROOT; };
+		8A318D29DA7A459D8776D71A /* OALAudioTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioTrack.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrack.m"; sourceTree = SOURCE_ROOT; };
+		8CC0E4EBB2D649E1A777C9A2 /* ALBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALBuffer.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALBuffer.m"; sourceTree = SOURCE_ROOT; };
+		8EF17E6D0E8F430EAA8BCB36 /* IOSVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IOSVersion.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/IOSVersion.h"; sourceTree = SOURCE_ROOT; };
+		8F682C1A4587451380409592 /* OALAudioTracks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioTracks.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTracks.h"; sourceTree = SOURCE_ROOT; };
+		9E5FBE95FC4D48F5956FA6B2 /* ObjectAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectAL.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/ObjectAL.h"; sourceTree = SOURCE_ROOT; };
+		9F3E1C83B1FC49D4BA081D90 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A0875121C9F14CD4A32D02BB /* NSMutableDictionary+WeakReferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+WeakReferences.h"; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/NSMutableDictionary+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		A4BBB37997974F9DA4CBAF09 /* DTBonjourDataChunk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBonjourDataChunk.m; path = DTBonjour/Core/Source/DTBonjourDataChunk.m; sourceTree = SOURCE_ROOT; };
+		A792804364FC49358FC74C65 /* OALSuspendHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALSuspendHandler.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Session/OALSuspendHandler.h"; sourceTree = SOURCE_ROOT; };
+		A902EAFB870D4EC6A7AB0EDC /* OALAudioTrackNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioTrackNotifications.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrackNotifications.h"; sourceTree = SOURCE_ROOT; };
+		AA2354CE6F5345CBA0770098 /* NSNumber+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Utilities.m"; path = "BBGroover/BBGroover/Grooving/Categories/NSNumber+Utilities.m"; sourceTree = SOURCE_ROOT; };
+		ADD631DCF95A4484B622049B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		AFF93700689A465A8346AD10 /* ObjectALConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectALConfig.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/ObjectALConfig.h"; sourceTree = SOURCE_ROOT; };
+		B1224656B0D741AAB9BDFF31 /* DTBonjourServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBonjourServer.h; path = DTBonjour/Core/Source/DTBonjourServer.h; sourceTree = SOURCE_ROOT; };
+		B531F805C4084D378D5AA332 /* BBGroove.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBGroove.h; path = BBGroover/BBGroover/Grooving/BBGroove.h; sourceTree = SOURCE_ROOT; };
+		B5B0941E98C6450A8707BE03 /* ALSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSource.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSource.m"; sourceTree = SOURCE_ROOT; };
+		B8B49EBB43834C4CBBAC79D6 /* ALWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALWrapper.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALWrapper.h"; sourceTree = SOURCE_ROOT; };
+		BBD2BF3947AE4D408C26E45E /* OALSimpleAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALSimpleAudio.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OALSimpleAudio.h"; sourceTree = SOURCE_ROOT; };
+		C6230CC8ADB744AB9365029F /* ALSoundSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSoundSource.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSource.h"; sourceTree = SOURCE_ROOT; };
+		CCD9D5C742DD43229271341B /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D226588807A24897934886D8 /* OALNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALNotifications.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALNotifications.h"; sourceTree = SOURCE_ROOT; };
+		D48DDC07D19E4DB08C54641C /* ALContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALContext.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALContext.m"; sourceTree = SOURCE_ROOT; };
+		D82D3BF6C4B448809ADDC85B /* OALTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALTools.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALTools.h"; sourceTree = SOURCE_ROOT; };
+		DB88140E387847ED89ACC54C /* OALAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioFile.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/OALAudioFile.h"; sourceTree = SOURCE_ROOT; };
+		DEE5BEFF84AB42D18625FA04 /* mach_timing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_timing.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/mach_timing.h"; sourceTree = SOURCE_ROOT; };
+		E9FB723005E940859DEC9C82 /* ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARCSafe_MemMgmt.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Support/ARCSafe_MemMgmt.h"; sourceTree = SOURCE_ROOT; };
+		EDF523374E004403A7896AA4 /* OALActionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALActionManager.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALActionManager.m"; sourceTree = SOURCE_ROOT; };
+		F2960B6CB04B4EBE8007F581 /* NSScanner+DTBonjour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+DTBonjour.m"; path = "DTBonjour/Core/Source/NSScanner+DTBonjour.m"; sourceTree = SOURCE_ROOT; };
+		F4F5715085884FD8B19A5A02 /* OALAudioActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioActions.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAudioActions.h"; sourceTree = SOURCE_ROOT; };
+		F5635AD7BD544C9893B68729 /* ALCaptureDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALCaptureDevice.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALCaptureDevice.h"; sourceTree = SOURCE_ROOT; };
+		F5CD503D4EA74C44A7C49E3D /* OALAudioTrackNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioTrackNotifications.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrackNotifications.m"; sourceTree = SOURCE_ROOT; };
+		F7651C132E314D66A0244090 /* OALAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OALAudioTrack.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTrack.h"; sourceTree = SOURCE_ROOT; };
+		F7682D14B77F43B497754972 /* ALSoundSourcePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSoundSourcePool.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/ALSoundSourcePool.m"; sourceTree = SOURCE_ROOT; };
+		F7A9310D2BA242C08179B1C2 /* BBGroover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBGroover.h; path = BBGroover/BBGroover/Grooving/BBGroover.h; sourceTree = SOURCE_ROOT; };
+		F87F0BAF04B5455783C2177B /* OpenALManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenALManager.h; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/OpenAL/OpenALManager.h"; sourceTree = SOURCE_ROOT; };
+		F87F541569794BAC80B6A7D6 /* OALAudioTracks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAudioTracks.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/AudioTrack/OALAudioTracks.m"; sourceTree = SOURCE_ROOT; };
+		FFB75076111A4A779B2E71BD /* OALAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OALAction.m; path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)/Actions/OALAction.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E1D4E0908C4EF284F91964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49510EAB24B465C8F20356C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756A8F3DD14A4318BEA50743 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F023C2D8534B8D9A9ACE7D /* Pods */,
+				8896944DFD23409F8F009DE8 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		829DC9C4137748D58362DE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3E1C83B1FC49D4BA081D90 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F023C2D8534B8D9A9ACE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADD631DCF95A4484B622049B /* Pods-resources.sh */,
+				CCD9D5C742DD43229271341B /* Pods-prefix.pch */,
+				1FFD98E505BC4AD09BB37EA4 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98768BC53B254A3AA0B912F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6B8ABFCC445ABB7312189 /* BBGroover */,
+				A9BA7B5CD7B44197953A513E /* DTBonjour */,
+				E65DCAE0313649189EB1EB4D /* ObjectAL-for-iPhone */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9BA7B5CD7B44197953A513E /* DTBonjour */ = {
+			isa = PBXGroup;
+			children = (
+				47D5EBA4D739406AA056135A /* DTBonjourDataChunk.h */,
+				357A0FAA577C4937B8B24168 /* DTBonjourDataConnection.h */,
+				B1224656B0D741AAB9BDFF31 /* DTBonjourServer.h */,
+				5F85162DA6FE43BDAC85B689 /* NSScanner+DTBonjour.h */,
+				A4BBB37997974F9DA4CBAF09 /* DTBonjourDataChunk.m */,
+				8400924E9F4940BA89B6E234 /* DTBonjourDataConnection.m */,
+				7A3F5EEC6625417BBEA13B62 /* DTBonjourServer.m */,
+				F2960B6CB04B4EBE8007F581 /* NSScanner+DTBonjour.m */,
+			);
+			name = DTBonjour;
+			sourceTree = "<group>";
+		};
+		BF2046041D894E49BC680A7C = {
+			isa = PBXGroup;
+			children = (
+				DE3D8BCDEC1C451F996B6774 /* Products */,
+				829DC9C4137748D58362DE13 /* Frameworks */,
+				98768BC53B254A3AA0B912F2 /* Pods */,
+				756A8F3DD14A4318BEA50743 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E6B8ABFCC445ABB7312189 /* BBGroover */ = {
+			isa = PBXGroup;
+			children = (
+				B531F805C4084D378D5AA332 /* BBGroove.h */,
+				F7A9310D2BA242C08179B1C2 /* BBGroover.h */,
+				75C056322E974A8195C22180 /* BBVoice.h */,
+				88FC874D9BC34630A3715E08 /* NSNumber+Utilities.h */,
+				1A47D3E25A2C4E4FA54B2538 /* BBGroove.m */,
+				4EA82300F84243B7873FC12C /* BBGroover.m */,
+				3EFDEF5DC5754521B6060357 /* BBVoice.m */,
+				AA2354CE6F5345CBA0770098 /* NSNumber+Utilities.m */,
+			);
+			name = BBGroover;
+			sourceTree = "<group>";
+		};
+		DE3D8BCDEC1C451F996B6774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E33DCA05EC742D380E0DD16 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E65DCAE0313649189EB1EB4D /* ObjectAL-for-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1A2C010810D24E75B6B70CA4 /* OALAction+Private.h */,
+				6BF9C372C1ED447DB24F590C /* OALAction.h */,
+				FFB75076111A4A779B2E71BD /* OALAction.m */,
+				5627412394B544DA9D011F47 /* OALActionManager.h */,
+				EDF523374E004403A7896AA4 /* OALActionManager.m */,
+				F4F5715085884FD8B19A5A02 /* OALAudioActions.h */,
+				7A650A3965564C8FABF932B2 /* OALAudioActions.m */,
+				3F74E24AD296420D859F27C9 /* OALUtilityActions.h */,
+				20E66322D8334BC5B3B61EAE /* OALUtilityActions.m */,
+				F7651C132E314D66A0244090 /* OALAudioTrack.h */,
+				8A318D29DA7A459D8776D71A /* OALAudioTrack.m */,
+				A902EAFB870D4EC6A7AB0EDC /* OALAudioTrackNotifications.h */,
+				F5CD503D4EA74C44A7C49E3D /* OALAudioTrackNotifications.m */,
+				8F682C1A4587451380409592 /* OALAudioTracks.h */,
+				F87F541569794BAC80B6A7D6 /* OALAudioTracks.m */,
+				BBD2BF3947AE4D408C26E45E /* OALSimpleAudio.h */,
+				0021479337E049868FCF5FBB /* OALSimpleAudio.m */,
+				9E5FBE95FC4D48F5956FA6B2 /* ObjectAL.h */,
+				AFF93700689A465A8346AD10 /* ObjectALConfig.h */,
+				3D00D708541E4ADCBDBA89D0 /* ALBuffer.h */,
+				8CC0E4EBB2D649E1A777C9A2 /* ALBuffer.m */,
+				F5635AD7BD544C9893B68729 /* ALCaptureDevice.h */,
+				6B09047777124A36AC4BC037 /* ALCaptureDevice.m */,
+				33A4D6D035914F829F925F48 /* ALChannelSource.h */,
+				34027BBE62A542E786676088 /* ALChannelSource.m */,
+				40DFCA954B374DAF8B38D6FD /* ALContext.h */,
+				D48DDC07D19E4DB08C54641C /* ALContext.m */,
+				7A53D3D39C3D4F2FAB2FFB69 /* ALDevice.h */,
+				7D904C7D5A724155B3AA3382 /* ALDevice.m */,
+				15BCE12D3B854A8EB3A1ACE4 /* ALListener.h */,
+				7640BE9657B54FC7AABED3D7 /* ALListener.m */,
+				C6230CC8ADB744AB9365029F /* ALSoundSource.h */,
+				80EADC2635C545F99F6A538D /* ALSoundSourcePool.h */,
+				F7682D14B77F43B497754972 /* ALSoundSourcePool.m */,
+				55650668AD844F689BF8D5BA /* ALSource.h */,
+				B5B0941E98C6450A8707BE03 /* ALSource.m */,
+				72F4BC071FCA4B8CBEA8086A /* ALTypes.h */,
+				B8B49EBB43834C4CBBAC79D6 /* ALWrapper.h */,
+				4D24F42EAC074208A51D5B97 /* ALWrapper.m */,
+				F87F0BAF04B5455783C2177B /* OpenALManager.h */,
+				707D08C1B17943B4B493E612 /* OpenALManager.m */,
+				7175460544E64B6985D63C55 /* OALAudioSession.h */,
+				620E5A758092488FA4D45A94 /* OALAudioSession.m */,
+				A792804364FC49358FC74C65 /* OALSuspendHandler.h */,
+				65ABDB10713048A6834A478B /* OALSuspendHandler.m */,
+				E9FB723005E940859DEC9C82 /* ARCSafe_MemMgmt.h */,
+				8EF17E6D0E8F430EAA8BCB36 /* IOSVersion.h */,
+				18B4B4FE0D2149B7B15DA20C /* IOSVersion.m */,
+				0009D621F7AD422384FB6B26 /* mach_timing.c */,
+				DEE5BEFF84AB42D18625FA04 /* mach_timing.h */,
+				0A18973DEB9543EFBA3DC427 /* NSMutableArray+WeakReferences.h */,
+				4CD1619EFEAF45FD988FFE78 /* NSMutableArray+WeakReferences.m */,
+				A0875121C9F14CD4A32D02BB /* NSMutableDictionary+WeakReferences.h */,
+				4B1CF066DFCE47D4824280F5 /* NSMutableDictionary+WeakReferences.m */,
+				DB88140E387847ED89ACC54C /* OALAudioFile.h */,
+				69867316EAA741BA99737022 /* OALAudioFile.m */,
+				D226588807A24897934886D8 /* OALNotifications.h */,
+				D82D3BF6C4B448809ADDC85B /* OALTools.h */,
+				4646B70194CE4111A08B870B /* OALTools.m */,
+				0CE8F9D9D4B7424C844F24AC /* ObjectALMacros.h */,
+				0418215374A142EEAF0FE52B /* SynthesizeSingleton.h */,
+			);
+			name = "ObjectAL-for-iPhone";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AB42D70F98D4CA59A960EF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02013DFB51FA43CA9D3B60FD /* BBGroove.h in Headers */,
+				B55C00EF77CA4D7B953A953B /* BBGroover.h in Headers */,
+				0BD766A00DED49E4880AAB53 /* BBVoice.h in Headers */,
+				908271806B3B48C69A18CF6D /* NSNumber+Utilities.h in Headers */,
+				7358D6645C914FBBAA3BF036 /* DTBonjourDataChunk.h in Headers */,
+				1F1DDCD540704B54B76A0FBC /* DTBonjourDataConnection.h in Headers */,
+				6E0706331C9148E4B65F0AC3 /* DTBonjourServer.h in Headers */,
+				9A6BF23B464B4D49A73BC718 /* NSScanner+DTBonjour.h in Headers */,
+				F13E35BBD5D5464BB6AC6D47 /* OALAction+Private.h in Headers */,
+				C207EDC0EAE24CD4A1C85AD9 /* OALAction.h in Headers */,
+				CB07B1A8B6E6438897E243CB /* OALActionManager.h in Headers */,
+				24536048987C44F0AA36AC7D /* OALAudioActions.h in Headers */,
+				9D34BAE90C594A47A3639749 /* OALUtilityActions.h in Headers */,
+				EC7E7EBEB4B94DBDAC6A1306 /* OALAudioTrack.h in Headers */,
+				E159B837124D4FD8BFEBD1ED /* OALAudioTrackNotifications.h in Headers */,
+				91084F755FEB49A8896080D1 /* OALAudioTracks.h in Headers */,
+				445CEDC98B854C11894B1507 /* OALSimpleAudio.h in Headers */,
+				E558877B7EFC4F8FB61DB2DB /* ObjectAL.h in Headers */,
+				57C77FA7140F4610BA95D72E /* ObjectALConfig.h in Headers */,
+				A855FC33C89D4C3192508992 /* ALBuffer.h in Headers */,
+				D10036F3446F401D9C88297A /* ALCaptureDevice.h in Headers */,
+				4673042CBEBD4A95A0A8F312 /* ALChannelSource.h in Headers */,
+				E5906D37A3E9409FACE22B6C /* ALContext.h in Headers */,
+				BAE4CE01094A4D9DB0471C46 /* ALDevice.h in Headers */,
+				94ECA1914F924C3B8B12652C /* ALListener.h in Headers */,
+				5F94C481DA7B4F13B0066755 /* ALSoundSource.h in Headers */,
+				737A618C3E3E4059B5F4614B /* ALSoundSourcePool.h in Headers */,
+				D0B54182FB5D4D25B4A0235D /* ALSource.h in Headers */,
+				EC87D9BCFBCB4D94A1EADFA9 /* ALTypes.h in Headers */,
+				127C9C4CDD194F748E48BB51 /* ALWrapper.h in Headers */,
+				940A08DC415B4A0783379F9B /* OpenALManager.h in Headers */,
+				DF8A185CC401400B82B0E51A /* OALAudioSession.h in Headers */,
+				59597D2799294750AC2E78E8 /* OALSuspendHandler.h in Headers */,
+				BF08721569CC46B981F1C915 /* ARCSafe_MemMgmt.h in Headers */,
+				A49D6062E62E4699A71BC457 /* IOSVersion.h in Headers */,
+				C8B2627E42324188972C3846 /* mach_timing.h in Headers */,
+				83FB93FEF1124EBF83CF3C29 /* NSMutableArray+WeakReferences.h in Headers */,
+				08D67E7AAAE2467CB4798428 /* NSMutableDictionary+WeakReferences.h in Headers */,
+				0B09CB194CBB4E679631B025 /* OALAudioFile.h in Headers */,
+				86D022CA815A497681C5E8B3 /* OALNotifications.h in Headers */,
+				A21D429BA5DF48F6AD2DE003 /* OALTools.h in Headers */,
+				C959424FFCF344FAA2B65B1C /* ObjectALMacros.h in Headers */,
+				32851073C263465AAFC44F74 /* SynthesizeSingleton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5446AFEAB56E4006A312DAFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2648C6BDB9C493298AB7CCC /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				AB132D9AFEA14E0FB757B1E9 /* Sources */,
+				A4E1D4E0908C4EF284F91964 /* Frameworks */,
+				2AB42D70F98D4CA59A960EF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0E33DCA05EC742D380E0DD16 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B3AF7B47AE4098878EC377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 17C5A72D8A8848549AB4BD08 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF2046041D894E49BC680A7C;
+			productRefGroup = DE3D8BCDEC1C451F996B6774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5446AFEAB56E4006A312DAFC /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB132D9AFEA14E0FB757B1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BF2FEC96884E2098442039 /* BBGroove.m in Sources */,
+				36A4FE6D2E794A09B7BAD472 /* BBGroover.m in Sources */,
+				866A7883FCFB4C1CAF8DEBC5 /* BBVoice.m in Sources */,
+				1B5921C897D2454CB6A22FE1 /* NSNumber+Utilities.m in Sources */,
+				B14B799EB66E4B10B9F3965C /* DTBonjourDataChunk.m in Sources */,
+				1AF31EAAE0A342F28A6DEAB8 /* DTBonjourDataConnection.m in Sources */,
+				C0F82EC3201C47E8AAA25EB2 /* DTBonjourServer.m in Sources */,
+				1E7B76C764EC4DB98B696261 /* NSScanner+DTBonjour.m in Sources */,
+				65928091FCC445DE8A899330 /* OALAction.m in Sources */,
+				4A755775F6674A52BC7735E3 /* OALActionManager.m in Sources */,
+				4C555539C103491F8D1B53D3 /* OALAudioActions.m in Sources */,
+				6B4696B39B1544D4A2258DF3 /* OALUtilityActions.m in Sources */,
+				70CE643682694A379468D3E6 /* OALAudioTrack.m in Sources */,
+				1BEA94E97D19403F9B03B781 /* OALAudioTrackNotifications.m in Sources */,
+				4FA5B3C2EB5749418E537150 /* OALAudioTracks.m in Sources */,
+				CA260D99E1B0495F819A6049 /* OALSimpleAudio.m in Sources */,
+				E1D0E1F28C6B434FB5277CC9 /* ALBuffer.m in Sources */,
+				FBC32B2DCCC443C081864D1E /* ALCaptureDevice.m in Sources */,
+				8A7BB67D28E84896AFC1AE31 /* ALChannelSource.m in Sources */,
+				B3C23A9439F545EC95A99D29 /* ALContext.m in Sources */,
+				50CCEC3B2D294319B6544CA1 /* ALDevice.m in Sources */,
+				B1A3AD461AF147958BF18D7F /* ALListener.m in Sources */,
+				F900338B360E4C648DC15912 /* ALSoundSourcePool.m in Sources */,
+				C3A5988444174119A5E52F17 /* ALSource.m in Sources */,
+				C57DE9E7BCBB440F89843945 /* ALWrapper.m in Sources */,
+				74EB92947B4F4AA28DCD9361 /* OpenALManager.m in Sources */,
+				11639A739388461C8894657D /* OALAudioSession.m in Sources */,
+				C2AAD59A7DC041EDAAFC369A /* OALSuspendHandler.m in Sources */,
+				26AEF6511C01457AA4EFEDEF /* IOSVersion.m in Sources */,
+				28A5297BC4FD4CD98144A9F4 /* mach_timing.c in Sources */,
+				BFD3A40E304E42A09B4A83A2 /* NSMutableArray+WeakReferences.m in Sources */,
+				550C912DCB584E7A846F9B75 /* NSMutableDictionary+WeakReferences.m in Sources */,
+				2F84D5BB237B4B09B07E664E /* OALAudioFile.m in Sources */,
+				2748F383F267490FA9CD8139 /* OALTools.m in Sources */,
+				17953DA61291490BB4AC86F8 /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61C1B5311BBA486B95812CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		6244D0E74FEB4A35A4EAEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		CCF639AB307E4A0EB2F42111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFD98E505BC4AD09BB37EA4 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB88722EF1154CE592B85327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFD98E505BC4AD09BB37EA4 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C5A72D8A8848549AB4BD08 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C1B5311BBA486B95812CA3 /* Release */,
+				6244D0E74FEB4A35A4EAEF5A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2648C6BDB9C493298AB7CCC /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF639AB307E4A0EB2F42111 /* Release */,
+				FB88722EF1154CE592B85327 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B3AF7B47AE4098878EC377 /* Project object */;
+}
